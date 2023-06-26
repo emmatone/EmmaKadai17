@@ -24,9 +24,10 @@ struct FruitRow: View {
                         .hidden()
                 }
             }
-            .padding(10)
-            Spacer()
+                Spacer()
             }
+            .padding(.vertical, 10)
+            .contentShape(Rectangle())
         }
     }
 }

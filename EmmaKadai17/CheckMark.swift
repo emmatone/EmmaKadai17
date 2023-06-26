@@ -11,6 +11,7 @@ struct CheckMark: View {
     var body: some View {
         Image(systemName: "checkmark")
             .foregroundColor(.orange)
+            .contentShape(Rectangle())
     }
 }
 

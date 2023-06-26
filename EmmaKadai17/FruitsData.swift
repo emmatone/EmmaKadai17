@@ -72,14 +72,14 @@ class Fruits: ObservableObject {
     }
     /// この関数は、選択された既存フルーツを削除し、成功したらtrueを返し、成功しなければfalseを返します
        func deleteFruitIfPossible(_ fruit: Fruit) -> Bool {
-           print("削除するのは", fruit)
+//           print("削除するのは", fruit)
            // いま選択されているのは何番目かをfirstIndex(where:)で見つける。見つけられなかったら終了
            guard let index = fruitsData.firstIndex(where: { fruit.id == $0.id }) else {
                return false
            }
            // チェックマークを反転させる
            fruitsData.remove(at: index)
-           print("削除後のリストは", fruitsData)
+//           print("削除後のリストは", fruitsData)
            return true
        }
 }

@@ -12,7 +12,7 @@ struct ContentView: View {
     // 編集する果物という名称に変更
     @State private var fruitToEdit: Fruit?
     @State private var isAdd: Bool = false
-
+    
     var body: some View {
         NavigationStack {
             VStack {
@@ -30,6 +30,14 @@ struct ContentView: View {
                             .onTapGesture {
                                 fruitToEdit = fruit
                             }
+                    }
+                    // MARK: - 削除ボタン
+                    .swipeActions(edge: .trailing) {
+                        Button(role: .destructive) {
+                            _ = fruits.deleteFruitIfPossible(fruit)
+                        }
+                    label: {
+                        Image(systemName: "trash.fill")                }
                     }
                 }
                 .listStyle(.inset)

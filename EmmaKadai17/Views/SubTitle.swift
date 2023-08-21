@@ -1,10 +1,3 @@
-//
-//  SubTitle.swift
-//  EmmaKadai17
-//
-//  Created by Hitomi Ishiodori on 2023/06/25.
-//
-
 import SwiftUI
 
 struct SubTitle: View {

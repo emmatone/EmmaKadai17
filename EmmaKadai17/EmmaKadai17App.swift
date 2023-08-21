@@ -1,10 +1,3 @@
-//
-//  EmmaKadai17App.swift
-//  EmmaKadai17
-//
-//  Created by Emma
-//
-
 import SwiftUI
 
 @main

@@ -1,17 +1,4 @@
-//
-//  FruitsData.swift
-//  EmmaKadai17
-//
-//  Created by Emma
-//
-
 import Foundation
-
-struct Fruit: Identifiable, Equatable, Hashable {
-    let id = UUID()
-    var name: String
-    var isChecked: Bool = false
-}
 
 class Fruits: ObservableObject {
     @Published var fruitsData = [

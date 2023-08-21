@@ -1,10 +1,3 @@
-//
-//  FruitRow.swift
-//  EmmaKadai17
-//
-//  Created by Emma
-//
-
 import SwiftUI
 
 struct FruitRow: View {
@@ -29,6 +22,14 @@ struct FruitRow: View {
             .padding(.vertical, 10)
             .contentShape(Rectangle())
         }
+    }
+}
+
+struct CheckMark: View {
+    var body: some View {
+        Image(systemName: "checkmark")
+            .foregroundColor(.orange)
+            .contentShape(Rectangle())
     }
 }
 

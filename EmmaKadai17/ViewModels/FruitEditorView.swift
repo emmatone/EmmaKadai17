@@ -1,10 +1,3 @@
-//
-//  FruitEditorView.swift
-//  EmmaKadai17
-//
-//  Created by Emma
-//
-
 import SwiftUI
 
 struct FruitEditorView: View {

@@ -7,19 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9D504C292A93862F00CB52BF /* Fruit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D504C282A93862F00CB52BF /* Fruit.swift */; };
 		9DD8FBE52A480EB900CD66D1 /* EmmaKadai17App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD8FBE42A480EB900CD66D1 /* EmmaKadai17App.swift */; };
 		9DD8FBE72A480EB900CD66D1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD8FBE62A480EB900CD66D1 /* ContentView.swift */; };
 		9DD8FBE92A480EBC00CD66D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DD8FBE82A480EBC00CD66D1 /* Assets.xcassets */; };
 		9DD8FBEC2A480EBC00CD66D1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DD8FBEB2A480EBC00CD66D1 /* Preview Assets.xcassets */; };
 		9DD8FBF32A48128C00CD66D1 /* FruitsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD8FBF22A48128C00CD66D1 /* FruitsData.swift */; };
 		9DD8FBF52A4818F100CD66D1 /* FruitRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD8FBF42A4818F100CD66D1 /* FruitRow.swift */; };
-		9DD8FBF72A4819BD00CD66D1 /* CheckMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD8FBF62A4819BD00CD66D1 /* CheckMark.swift */; };
-		9DD8FBF92A481BF100CD66D1 /* EditIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD8FBF82A481BF100CD66D1 /* EditIcon.swift */; };
 		9DD8FBFB2A481C0300CD66D1 /* SubTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD8FBFA2A481C0300CD66D1 /* SubTitle.swift */; };
 		9DD8FBFD2A481C9100CD66D1 /* FruitEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD8FBFC2A481C9100CD66D1 /* FruitEditorView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9D504C282A93862F00CB52BF /* Fruit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fruit.swift; sourceTree = "<group>"; };
 		9DD8FBE12A480EB900CD66D1 /* EmmaKadai17.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmmaKadai17.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DD8FBE42A480EB900CD66D1 /* EmmaKadai17App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmmaKadai17App.swift; sourceTree = "<group>"; };
 		9DD8FBE62A480EB900CD66D1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -27,8 +27,6 @@
 		9DD8FBEB2A480EBC00CD66D1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9DD8FBF22A48128C00CD66D1 /* FruitsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitsData.swift; sourceTree = "<group>"; };
 		9DD8FBF42A4818F100CD66D1 /* FruitRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitRow.swift; sourceTree = "<group>"; };
-		9DD8FBF62A4819BD00CD66D1 /* CheckMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckMark.swift; sourceTree = "<group>"; };
-		9DD8FBF82A481BF100CD66D1 /* EditIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditIcon.swift; sourceTree = "<group>"; };
 		9DD8FBFA2A481C0300CD66D1 /* SubTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubTitle.swift; sourceTree = "<group>"; };
 		9DD8FBFC2A481C9100CD66D1 /* FruitEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitEditorView.swift; sourceTree = "<group>"; };
 		9DD8FBFF2A491DCB00CD66D1 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -45,6 +43,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9D504C252A93817C00CB52BF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9D504C282A93862F00CB52BF /* Fruit.swift */,
+				9DD8FBF22A48128C00CD66D1 /* FruitsData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9D504C262A93818B00CB52BF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9DD8FBF42A4818F100CD66D1 /* FruitRow.swift */,
+				9DD8FBFA2A481C0300CD66D1 /* SubTitle.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9D504C272A9381A500CB52BF /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				9DD8FBFC2A481C9100CD66D1 /* FruitEditorView.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 		9DD8FBD82A480EB800CD66D1 = {
 			isa = PBXGroup;
 			children = (
@@ -67,12 +91,9 @@
 			children = (
 				9DD8FBE42A480EB900CD66D1 /* EmmaKadai17App.swift */,
 				9DD8FBE62A480EB900CD66D1 /* ContentView.swift */,
-				9DD8FBFC2A481C9100CD66D1 /* FruitEditorView.swift */,
-				9DD8FBF42A4818F100CD66D1 /* FruitRow.swift */,
-				9DD8FBF62A4819BD00CD66D1 /* CheckMark.swift */,
-				9DD8FBF82A481BF100CD66D1 /* EditIcon.swift */,
-				9DD8FBF22A48128C00CD66D1 /* FruitsData.swift */,
-				9DD8FBFA2A481C0300CD66D1 /* SubTitle.swift */,
+				9D504C252A93817C00CB52BF /* Models */,
+				9D504C262A93818B00CB52BF /* Views */,
+				9D504C272A9381A500CB52BF /* ViewModels */,
 				9DD8FBE82A480EBC00CD66D1 /* Assets.xcassets */,
 				9DD8FBEA2A480EBC00CD66D1 /* Preview Content */,
 			);
@@ -178,14 +199,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9DD8FBF92A481BF100CD66D1 /* EditIcon.swift in Sources */,
 				9DD8FBFB2A481C0300CD66D1 /* SubTitle.swift in Sources */,
 				9DD8FBE72A480EB900CD66D1 /* ContentView.swift in Sources */,
 				9DD8FBE52A480EB900CD66D1 /* EmmaKadai17App.swift in Sources */,
 				9DD8FBFD2A481C9100CD66D1 /* FruitEditorView.swift in Sources */,
+				9D504C292A93862F00CB52BF /* Fruit.swift in Sources */,
 				9DD8FBF32A48128C00CD66D1 /* FruitsData.swift in Sources */,
 				9DD8FBF52A4818F100CD66D1 /* FruitRow.swift in Sources */,
-				9DD8FBF72A4819BD00CD66D1 /* CheckMark.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,10 +1,3 @@
-//
-//  ContentView.swift
-//  EmmaKadai17
-//
-//  Created by Emma
-//
-
 import SwiftUI
 
 struct ContentView: View {
@@ -64,6 +57,16 @@ struct ContentView: View {
         }
     }
 }
+
+struct EditIcon: View {
+    var body: some View {
+        Image(systemName: "info.circle")
+            .padding(10)
+            .foregroundColor(.blue)
+            .contentShape(Rectangle())
+    }
+}
+
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
